@@ -14,18 +14,29 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1a1a1a;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  text-shadow: 2px 2px #ff0000;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.termekek{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {

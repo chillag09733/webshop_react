@@ -1,0 +1,47 @@
+.kartya {
+    background-color: #1a1a1a; 
+    border: 2px solid #ff0000; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    font-family: 'Creepster', cursive; 
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .kartya:hover {
+    transform: scale(1.05);
+  }
+  
+  .kartya img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .kartya h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .kartya p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .kartya button {
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kartya button:hover {
+    background-color: #990000;
+  }
+  
